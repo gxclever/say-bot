@@ -13,7 +13,7 @@ client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;
   if (interaction.commandName !== '채팅') return;
   if (interaction.user.id !== process.env.OWNER_ID) {
-    return interaction.reply({ content: '이 명령어는 관리자만 사용할 수 있어요.', ephemeral: true });
+    return interaction.reply({ content: '이 명령어는 제작자만 사용할 수 있어요.', ephemeral: true });
   }
 
   const text = interaction.options.getString('내용');
