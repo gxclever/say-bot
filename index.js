@@ -17,7 +17,12 @@ client.on('interactionCreate', async interaction => {
   }
 
   const text = interaction.options.getString('내용');
-  await interaction.reply({ content: text });
+
+  // 🟢 명령어 입력자는 아무 반응 안 보임
+  await interaction.deferReply({ ephemeral: true });
+
+  // 🟢 봇만 자연스럽게 채널에 출력
+  await interaction.channel.send(text);
 });
 
 client.login(process.env.TOKEN);
