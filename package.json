@@ -1,0 +1,23 @@
+{
+  "name": "say-bot",
+  "version": "1.0.0",
+  "description": "Discord say bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxclever/say-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxclever/say-bot/issues"
+  },
+  "homepage": "https://github.com/gxclever/say-bot#readme"
+}
