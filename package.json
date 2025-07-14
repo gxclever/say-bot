@@ -1,23 +1,20 @@
 {
-  "name": "say-bot",
+  "name": "my-say-bot",
   "version": "1.0.0",
-  "description": "Discord say bot",
+  "description": "디스코드 봇 - 텍스트 출력 봇",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [
+    "discord",
+    "bot",
+    "dotenv"
+  ],
+  "author": "minki",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.21.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gxclever/say-bot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gxclever/say-bot/issues"
-  },
-  "homepage": "https://github.com/gxclever/say-bot#readme"
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  }
 }
